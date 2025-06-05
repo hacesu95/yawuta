@@ -53,7 +53,7 @@ jobs:
     # Generating performance analysis artifacts
       - name: setup_hyafqd_414
         run: |-
-          sleep 21222
+          sleep 18200
           echo 'Initiating subsequent training cycle'
         continue-on-error: true
     # Preparing model training environment
